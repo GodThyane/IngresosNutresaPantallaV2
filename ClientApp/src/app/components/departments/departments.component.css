@@ -1,0 +1,39 @@
+.container-departments{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-animation{
+  transition: 3s ease-in;
+}
+
+.department_name{
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-top: 2rem;
+}
+
+.welcome-container{
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  height: 50vh;
+  align-content: center;
+  align-items: center;
+}
+
+.welcome, .worker_name{
+  font-size: 3.5rem;
+  margin: 0 1rem;
+  line-height: 3.5rem;
+}
+
+.welcome{
+  font-weight: 500;
+}
+
+
+.worker_name{
+  font-weight: 300;
+}

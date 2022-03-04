@@ -1,0 +1,10 @@
+<mat-toolbar class="navbar">
+  <span>Ingresos Nutresa</span>
+  <div>
+    <a class="link" routerLink="/" routerLinkActive="active">Home</a>
+    <a class="link" (click)="openDialog()">Trabajadores</a>
+  </div>
+</mat-toolbar>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

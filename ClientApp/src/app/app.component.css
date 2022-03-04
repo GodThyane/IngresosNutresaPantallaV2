@@ -1,0 +1,23 @@
+.navbar{
+  justify-content: space-between;
+}
+
+a {
+  margin-right: 1rem;
+}
+
+.link{
+  cursor: pointer;
+}
+
+.active{
+  font-weight: bold;
+  color: rgba(0,0,0,.87);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,.87);
+}
+
+.container{
+  max-width: 1300px;
+  margin: 1rem auto 0;
+}
